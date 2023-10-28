@@ -1,0 +1,106 @@
+body{
+    box-sizing: border-box;
+}
+.parts{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+.first-part{
+    width: 50%;
+    background-color: rgb(252, 193, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-part{
+    width: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .parts{
+        display: flex;
+        flex-direction: row;
+        height: 40vh;
+    }
+    img{
+        width:70%;
+        padding: 5px;
+    }
+    .numbers>div{
+        height: 10vh;
+    }
+    
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 32.6%;
+    margin: 5px;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    border: 10px solid rgb(252, 193, 43);
+}
+
+.numbers>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 30vh;
+    font-size: large;
+}
+
+
+.three-parts{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.two-parts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.three-parts>div{
+    height: 50vh;
+    
+}
+
+.numbers1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    border: 10px solid rgb(252, 193, 43);   
+}
+.numbers1>div{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 11.11%;
+    height: 70vh;
+    font-size: 80px;
+    color: white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,160 @@
+body{
+    box-sizing: border-box;
+}
+.container1 {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    margin: 0;
+    
+    
+}
+
+.container2{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 5px 5px 4px  rgba(0, 0, 0, 0.1) , -5px -5px 4px  rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+.form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.nav-bar a{
+    color: gray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0073b1;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #044063;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(6, 6, 216);
+}
+[class*="col-"]{
+    width:11.1%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    [class*="col-"] {
+      width:50%
+    }
+  }
+
+  .show{
+    display: flex;
+    flex-direction: row;
+  } */
+
+  .bold-line{
+    border: 1px solid rgb(94, 89, 89);
+    width: 45%;
+}
+.or-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.apple-button{
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* //////////////////form 2 ////////////////////// */
+
+.form2-container{
+    font-family: Arial, sans-serif;
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    height: 70vh;
+    margin: 0;
+}
+
+ input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+ button {
+    background-color: #0073b1;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.form2 {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar2 {
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 50px 0;
+   
+}
+
+.navbar-left a, .navbar-right a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
