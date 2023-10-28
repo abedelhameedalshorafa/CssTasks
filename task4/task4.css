@@ -1,0 +1,41 @@
+.first-part{
+    background-color: saddlebrown;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.second-part{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(152, 92, 65);
+}
+
+.sub-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.sub-part>span{
+    margin:5px;
+    color:rgb(4, 77, 4)
+}
+
+
+@media only screen and (max-width: 600px) {
+    .first-part{
+        background-color: saddlebrown;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+}
+
